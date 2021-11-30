@@ -39,7 +39,7 @@
     border-radius: 30px;
     text-align: center;
     line-height: 50px;
-    margin: 0 auto;
+    margin: 0 auto 80px;
 }
 @media screen and (max-width: 768px){
     .topics__container{
@@ -58,7 +58,7 @@
 }
 .privacy__container {
     width: 80%;
-    margin: 0 auto;
+    margin: 0 auto 80px;
 }
 .privacy__title {
     font-size: 1.25rem;
@@ -93,7 +93,7 @@
     background: #fff8fb;
     width: 55.37%;
     padding: 20px 5% 10px;
-    margin: 0 auto;
+    margin: 0 auto 80px;
 }
 .company__container dl{
     display: flex;
@@ -503,7 +503,7 @@ input,textarea{
     padding: 0.5em;
     border-radius: 10px;
 }
-dt{
+.form dt{
     color: #e9587e; 
     font-weight: bold;
 }
