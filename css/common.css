@@ -126,14 +126,13 @@ header .inner{
     content: "";
     margin: auto;
     position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 20%;
+    top: 50%;
+    right: 10%;
     width: 5px;    
     height: 5px;  
     border-top: 2px solid #e9587e;    
     border-right: 2px solid #e9587e;   
-    transform: rotate(45deg);   
+    transform: translateY(-50%) rotate(45deg);   
   }
 .order8 a:hover,.order9 a:hover{
     background: #b41b44;
